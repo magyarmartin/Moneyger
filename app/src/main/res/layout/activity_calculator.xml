@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Vissza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calcBackBtn" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Komment"
+            android:ems="10"
+            android:id="@+id/calcEditText" />
+
+        <TextView
+            android:text="Összeg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcValueLabel"
+                android:gravity="center_horizontal"
+                android:layout_weight=".25" />
+
+            <Button
+                android:text="x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcClear"
+                android:layout_weight=".75" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcSeven" />
+
+            <Button
+                android:text="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcEight"
+                android:layout_weight=".25" />
+
+            <Button
+                android:text="9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcNine"
+                android:layout_weight=".25" />
+
+            <Button
+                android:text="*"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcMultiply"
+                android:layout_weight=".25" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="4"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcFour"
+                android:layout_weight=".25"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:text="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcFive" />
+
+            <Button
+                android:text="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcSix" />
+
+            <Button
+                android:text="/"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcDivision" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcOne" />
+
+            <Button
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcTwo" />
+
+            <Button
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcThree" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".25"
+                android:id="@+id/calcPlus" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcDot"
+                android:layout_weight=".25"/>
+
+            <Button
+                android:text="="
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcEql"
+                android:layout_weight=".25"/>
+
+            <Button
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcZero"
+                android:layout_weight=".25" />
+
+            <Button
+                android:text="-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/calcMinus"
+                android:layout_weight=".25"/>
+        </LinearLayout>
+
+        <Button
+            android:text="OK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calcSave" />
+
+    </LinearLayout>
+
+</LinearLayout>
