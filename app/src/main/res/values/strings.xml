@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Moneyger</string>
+    <string name="toolbarTitle">Moneyger</string>
+    <string name="daily_limit">Daily limit</string>
+    <string name="tomorrow_limit">Tomorrow limit</string>
+    <string name="spendings">Spendings</string>
+    <string name="plus_btn">+</string>
+    <string name="minus_btn">-</string>
 </resources>
